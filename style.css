@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+}
+
+.todo-card{
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.todo-title{
+    display:flex;
+    gap: 10px;
+    padding: 4%;
+    width: 40%;
+    height: 15%;
+    flex: 1;
+    
+}
+
+.title h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-block: -2%;
+    
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin-block: auto;
+    border: 1px solid black;
+}
+
+.status{
+    display: flex;
+    gap: 8px;
+    margin-right: 70%;
+    margin-top: 16px;
+    position: relative;
+    left: 8%;
+
+}
+
+.priority-high{
+    background-color: red;
+    color: white;
+    width: 40%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.in-progress-status{
+    background-color: #F1F5F9;
+    width: 60%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.description{
+    padding-inline: 8%;
+    margin-top: 16px;
+}
+
+.time{
+    display: flex;
+    gap: 16px;
+    margin-left: 8%;
+    margin-top: 16px;
+}
+
+.tags{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+   padding: 0;
+   list-style: none;
+   margin-top: 16px;
+}
+
+.tags li {
+  background: #eee;
+  padding: 4px 4px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-left: 8%;
+  border: 1px solid rgba(136, 130, 130, 0.57);
+}
+
+.actions{
+    margin-left: 8%;
+    margin-top: 41px;
+    display: flex;
+    gap: 24px;
+}
+
+.delete-button{
+    background-color: red;
+    width: 30%;
+    height: 38px;
+    color: white;
+    border: none;
+    font-family: poppins;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.edit-button{
+    width: 30%;
+    height: 38px;
+    border: 1px solid black;
+    fill: none;
+    background-color: white;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+
